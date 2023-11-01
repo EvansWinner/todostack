@@ -30,8 +30,8 @@ back.  You can use `todostack-queue` to add something to the bottom of
 the stack instead of the top, which lets you treat the stack more like
 a queue.
 
-Commands `todostack-save' and `todostack-load` will save and load the
-todostack to a file specified in the variable `todostack-save-file'.
+Commands `todostack-save` and `todostack-load` will save and load the
+todostack to a file specified in the variable `todostack-save-file`.
 The default is `~/.emacs.d/todostacksave.el`.  Also,
 `todostack-backup` will make a backup copy of the current stack in a
 file in the same directory and same name with an extention named by
