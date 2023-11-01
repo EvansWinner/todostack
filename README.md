@@ -36,7 +36,7 @@ The default is `~/.emacs.d/todostacksave.el`.  Also,
 `todostack-backup` will make a backup copy of the current stack in a
 file in the same directory and same name with an extention named by
 variable `todostack-backup-extension`.  This is a good function
-to add to `todostack-before-save-hook' -- so good, in fact, that I
+to add to `todostack-before-save-hook` -- so good, in fact, that I
 have made it the default and set the extension to ".bak".  See also
 `todostack-rescue`.  Finally, if you want to hack on it, see
 `todostack-test`.
